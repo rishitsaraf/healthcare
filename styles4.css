@@ -1,0 +1,478 @@
+body {
+    background-color: #ffffff;
+}
+
+.greeting {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.seeallimg:hover {
+    filter:invert(100%);
+}
+
+.mark1 {
+    position: absolute;
+    z-index: -1;
+    margin-left: 5px;
+    margin-top: 37px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.navbtn {
+    z-index: 2;
+    background-color: #f5a58b;
+    position: fixed;
+    margin-top: 45px;
+    margin-left: 15px ;
+}
+
+.navbtn:hover {
+    
+    filter:invert(100%);
+    border-style: solid;
+}
+
+.mainimg {
+    margin-top: 110px;
+    border-radius: 100px;
+    width: 550px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.selectnone{
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.mainimg2 {
+    border-radius: 100px;
+    width: 450px;
+    margin-top: 100px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.mainheading {
+    margin-top: 120px;
+    font-size: 55px;
+    color: black;
+}
+
+.center {
+    text-align: center;
+}
+
+.mt-img1 {
+    margin-top: 80px;
+    margin-left: 0px;
+}
+
+.leftmargin {
+    margin-left: 80px;
+}
+
+.maindesc {
+    font-family: 'B612', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #9D9B9B;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.maindesc2 {
+    font-family: 'B612', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #9D9B9B;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.btntext {
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.btntext2 {
+    margin-top: 12px;
+    color: white;
+    font-size: 18px;
+}
+
+.btn1 {
+    margin-top: 30px;
+    background: #B0AFDD;
+    width: 242px;
+    height: 60px;
+    border-radius: 100px;
+    margin-left: 80px;
+}
+
+.btn1:hover {
+    background-color: red ;
+}
+
+.btn2 {
+    margin-top: 30px;
+    background: #B0AFDD;
+    width: 245px;
+    height: 60px;
+    border-radius: 100px;
+    margin-left: 80px;
+}
+
+.btn2:hover {
+    background-color:red ;
+}
+
+.cardtext {
+    font-family: 'Poppins', sans-serif;
+}
+
+.cardbox_1:hover {
+    margin-top: 25px;
+
+    height: 300px;
+    background-color: #F6F6F5 ;
+    border-style: solid;
+    width: 280px;
+    border-radius: 15px;
+}
+
+.cardbox_1 {
+    margin-top: 25px;
+
+    height: 300px;
+
+    width: 280px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+}
+
+.cardbox_2:hover {
+    margin-top: 25px;
+
+    height: 300px;
+    width: 280px;
+    background-color:#F6F6F5 ;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.cardbox_2  {
+
+    margin-top: 25px;
+    height: 300px;
+    width: 280px;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+}
+
+.seeall {
+    margin-left: 80px;
+}
+
+.mt-neg1 {
+    margin-top: -40px;
+}
+
+.mt-neg2 {
+    margin-top: -80px;
+}
+
+.cardbox_3:hover {
+    margin-top: 25px;
+
+    height: 300px;
+    width: 280px;
+    background-color:#F6F6F5 ;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.cardbox_3  {
+
+    margin-top: 25px;
+    height: 300px;
+    width: 280px;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+
+    border-radius: 15px;
+}
+
+.cardimg {
+    margin-top: 70px; 
+    margin-left: 86px;
+}
+
+.a1:link{
+    color:black;
+    text-decoration: none;
+}
+
+.a1:visited {
+    color: black;
+    
+}
+
+.a2:link{
+    color:white;
+    text-decoration: none;
+}
+
+.a2:visited {
+    color: white;
+    
+}
+
+.mt-extra {
+    margin-top: 180px;
+}
+
+.iconsm {
+    margin-left: 120px;
+    margin-top: 60px;
+}
+
+.icontext {
+    font-family: 'Poppins', sans-serif;
+    margin-left: -340px;
+    margin-top: 60px;
+}
+
+.subtext {
+    margin-top: -25px;
+    color: #9D9B9B;
+    font-family: B612;
+}
+
+.subtext2 {
+    margin-top: 30px;
+    color: #9D9B9B;
+    font-family: B612;
+    font-size: 25px;
+}
+
+.mainimg3 {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.contactcard {
+
+    margin-top: 100px;
+    margin-left: 180px;
+    height: 70px;
+    width: 280px;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+}
+
+.contactcard2 {
+
+    margin-top: 100px;
+    margin-left: 20px;
+    height: 70px;
+    width: 280px;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+}
+
+.contactcard3 {
+
+    margin-top: 100px;
+    margin-left: -74px;
+    height: 70px;
+    width: 280px;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+}
+
+.contactcard:hover {
+    background-color: #df64df;
+    filter:invert(100%);
+}
+.contactcard2:hover {
+    background-color: #df64df;
+    filter:invert(100%);
+}
+.contactcard3:hover {
+    background-color: #df64df;
+    filter:invert(100%);
+}
+
+.callicon {
+    margin-top: 27px;
+    color: black;
+}
+
+.topchev {
+    z-index: 10;
+    position: absolute;
+    margin-left: 50px;
+}
+
+.footer {
+    position: relative;
+    z-index: 10;
+    height: 60px;
+    width: 1710px;
+    margin-top: 25px;
+    background-color: #0A5A74;
+}
+
+.footertext {
+    margin-right: 50px;
+    text-align: right;
+    margin-top: 15px;
+    color: white;
+}
+
+.topnav {
+    height: 80px;
+    width: 1706px;;
+    position: fixed;
+    background-color:#0A5A74 ;
+}
+
+.tooltip {
+    position: fixed;
+}
+
+.vertnav {
+    width:100px;
+    position: fixed;
+    background-color: #0A5A74;
+    height:1005px;
+}
+
+.navdesh {
+    margin-left: 90px;
+    margin-top: 45px;
+    background-color: white;
+    position: fixed;
+    z-index: 3;
+    height: 10px;
+    width: 10px;
+    border-radius: 30px;
+    width: 1706px;
+    height: 50px;
+}
+
+.navdesv {
+    margin-left: 90px;
+    margin-top: 45px;
+    background-color: white;
+    position: fixed;
+    z-index: 4;
+    border-radius: 30px;
+    width: 50px;
+    height: 958px;
+}
+
+
+.loginbtn {
+    position: fixed;
+    z-index: 2;
+    margin-left: 1300px;
+    margin-top: 3px;  
+}
+
+
+.navbarhome {
+    position: fixed;
+    margin-top: 200px;
+    margin-left: 24px;
+    z-index: 10;
+    color: white;
+}
+
+.navbarheart {
+    position: fixed;
+    margin-top: 320px;
+    margin-left: 24px;
+    z-index: 10;
+    color: white;
+}
+
+.navbarmail {
+    position: fixed;
+    margin-top: 440px;
+    margin-left: 24px;
+    z-index: 10;
+    color: white;
+}
+
+.navigationbar{
+    display:none;
+}
+
+.navbarinfo{
+    position: fixed;
+    margin-top: 560px;
+    margin-left: 24px;
+    z-index: 10;
+    color: white;
+}
+
+.signature {
+    color: white;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 720px;
+}
